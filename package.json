@@ -1,23 +1,37 @@
 {
-  "name": "ember-savvy-css",
+  "name": "@savvy-css/ember-savvy-css",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "An Ember addon for including Savvy CSS in an Ember project",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember css",
+    "ember css imports"
+  ],
+  "files": [
+    "index.js"
   ],
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Brian Sipple <@Brian_Sipple>",
+    "url": "https://github.com/BrianSipple"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/savvy-css/ember-savvy-css.git",
+  "bugs": {
+    "url": "https://github.com/savvy-css/ember-savvy-css.git/issues"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
+    "@savvy-css/savvy": "^0.0.2",
+    "broccoli-funnel": "^1.2.0",
+    "broccoli-merge-trees": "^2.0.0",
     "ember-cli-babel": "^6.0.0"
   },
   "devDependencies": {
