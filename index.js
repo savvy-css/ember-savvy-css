@@ -23,6 +23,8 @@ module.exports = {
       ]
     });
 
-    return new MergeTrees([vendorTree, savvyTree]);
+    const trees = vendorTree ? [vendorTree, savvyTree] : [savvyTree];
+
+    return new MergeTrees(trees);
   }
 };
