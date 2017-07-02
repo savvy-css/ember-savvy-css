@@ -8,7 +8,10 @@
     "ember css imports"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "app/",
+    "addon/",
+    "blueprints/"
   ],
   "license": "MIT",
   "author": {
@@ -29,10 +32,28 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "@savvy-css/savvy": "^0.0.2",
-    "broccoli-funnel": "^1.2.0",
-    "broccoli-merge-trees": "^2.0.0",
-    "ember-cli-babel": "^6.0.0"
+    "@savvy-css/box-object-patterns": "^0.0.1",
+    "@savvy-css/box-shadow-garnishes": "^0.0.1",
+    "@savvy-css/box-shadow-variables": "^0.0.2",
+    "@savvy-css/breakpoint-variables": "^0.0.2",
+    "@savvy-css/core-variables": "^0.0.2",
+    "@savvy-css/display-utilities": "^0.0.1",
+    "@savvy-css/flex-utilities": "^0.0.1",
+    "@savvy-css/grid-object-patterns": "^0.1.0",
+    "@savvy-css/normalize": "^0.1.0",
+    "@savvy-css/overflow-utilities": "^0.0.1",
+    "@savvy-css/position-utilities": "^0.0.1",
+    "@savvy-css/reset-garnishes": "^0.0.1",
+    "@savvy-css/sizing-utilities": "^0.0.1",
+    "@savvy-css/spacing-utilities": "^0.0.1",
+    "@savvy-css/spacing-variables": "^0.0.1",
+    "@savvy-css/tap-target-object-patterns": "^0.0.1",
+    "@savvy-css/text-utilities": "^0.0.1",
+    "@savvy-css/typography-garnishes": "^0.0.1",
+    "@savvy-css/typography-variables": "^0.0.1",
+    "@savvy-css/v-align-utilities": "^0.0.1",
+    "@savvy-css/z-index-utilities": "^0.0.1",
+    "ember-cli-babel": "6.0.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",

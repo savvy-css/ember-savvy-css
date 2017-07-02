@@ -20,9 +20,21 @@ ember install @savvy-css/ember-savvy-css
 
 ## Usage
 
-## Background
+During installation, the addon will generate a `_ember-savvy-css.css` file in your project's `app/styles/` directory. By default, this file imports all of the modules of `savvy-css`. However, you can modify these imports as you see fit.
 
-## Contributing
+From there, all you need to do is import the generated file in your `app.css` file to make it a part of the styles that are processed by your app:
+
+```css
+/* app.css */
+
+@import "./_ember-savvy-css.css";
+
+...
+
+```
+
+Currently, this setup assumes that your styles are being processed wth `ember-cli-postcss`, but more flexible options are being explored.
+
 
 
 [npm-badge]: https://img.shields.io/npm/v/@savvy-css/ember-savvy-css.svg
