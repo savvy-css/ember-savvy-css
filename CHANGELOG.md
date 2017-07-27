@@ -1,3 +1,8 @@
+# 0.2.2 &mdash; July 27, 2017
+
+- **[ENHANCEMENT]** Add `@savvy-css/border-garnishes` @ `v0.1.0`.
+
+
 # 0.2.1 &mdash; July 27, 2017
 
 - **[ENHANCEMENT]** Upgrade `@savvy-css/typography-variables` to `v0.1.0`.
