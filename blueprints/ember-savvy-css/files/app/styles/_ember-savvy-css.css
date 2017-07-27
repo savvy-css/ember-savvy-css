@@ -6,6 +6,7 @@
 @import "@savvy-css/typography-variables";
 
 /* ------------- GARNISHES -------------- */
+@import "@savvy-css/border-garnishes";
 @import "@savvy-css/box-shadow-garnishes";
 @import "@savvy-css/reset-garnishes";
 @import "@savvy-css/typography-garnishes";
