@@ -50,7 +50,7 @@
     "@savvy-css/tap-target-object-patterns": "^0.0.1",
     "@savvy-css/text-utilities": "^0.0.1",
     "@savvy-css/typography-garnishes": "^0.0.1",
-    "@savvy-css/typography-variables": "^0.0.1",
+    "@savvy-css/typography-variables": "^0.1.0",
     "@savvy-css/v-align-utilities": "^0.0.1",
     "@savvy-css/z-index-utilities": "^0.0.1",
     "ember-cli-babel": "6.0.0"
