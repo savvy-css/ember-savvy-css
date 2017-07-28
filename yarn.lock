@@ -114,9 +114,9 @@
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@savvy-css/flex-utilities/-/flex-utilities-0.0.1.tgz#9857a295ecc90c43b5199dd27110df4276996c36"
 
-"@savvy-css/grid-object-patterns@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@savvy-css/grid-object-patterns/-/grid-object-patterns-0.2.0.tgz#437fdfb91b5b340f5c6c6f032821264cc52ef6b2"
+"@savvy-css/grid-object-patterns@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@savvy-css/grid-object-patterns/-/grid-object-patterns-0.2.1.tgz#d6b72d74ea63b0dfe7c932dd95675ee98f077e01"
 
 "@savvy-css/normalize@^0.1.0":
   version "0.1.0"
