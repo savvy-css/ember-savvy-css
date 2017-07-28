@@ -1,3 +1,8 @@
+# 0.3.1 &mdash; July 27, 2017
+
+- **[PATCH]** Upgrade to `@savvy-css/grid-object-patterns` @ `v0.2.1`.
+
+
 # 0.3.0 &mdash; July 27, 2017
 
 - **[BREAKING CHANGE]** Upgrade to `@savvy-css/grid-object-patterns` @ `v0.2.0`.
