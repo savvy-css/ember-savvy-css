@@ -1,3 +1,8 @@
+# 0.3.2 &mdash; July 28, 2017
+
+- **[ENHANCEMENT]** Upgrade to `@savvy-css/border-garnishes` @ `v0.2.0`.
+
+
 # 0.3.1 &mdash; July 27, 2017
 
 - **[PATCH]** Upgrade to `@savvy-css/grid-object-patterns` @ `v0.2.1`.
