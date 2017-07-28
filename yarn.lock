@@ -82,9 +82,9 @@
   dependencies:
     "@glimmer/util" "^0.22.1"
 
-"@savvy-css/border-garnishes@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@savvy-css/border-garnishes/-/border-garnishes-0.1.0.tgz#42e66fd52fe01687b90a0a2826417a8e199687e5"
+"@savvy-css/border-garnishes@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@savvy-css/border-garnishes/-/border-garnishes-0.2.0.tgz#477f108444b720c536131cf64d14ddbfd371a5a0"
 
 "@savvy-css/box-object-patterns@^0.0.1":
   version "0.0.1"
