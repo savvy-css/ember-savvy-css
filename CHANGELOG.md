@@ -1,3 +1,9 @@
+# 0.4.1 &mdash; August 03, 2017
+
+- **[PATCH]** Upgrade to `@savvy-css/typography-garnishes` @ `v0.1.1`.
+- **[PATCH]** Upgrade to `@savvy-css/typography-variables` @ `v0.2.1`.
+
+
 # 0.4.0 &mdash; August 03, 2017
 
 - **[BREAKING CHANGE]** Upgrade to `@savvy-css/typography-variables` @ `v0.2.0`.

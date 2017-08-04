@@ -1,6 +1,6 @@
 {
   "name": "@savvy-css/ember-savvy-css",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "An Ember addon for including Savvy CSS in an Ember project",
   "keywords": [
     "ember-addon",
