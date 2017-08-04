@@ -154,13 +154,13 @@
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@savvy-css/text-utilities/-/text-utilities-0.0.1.tgz#f4411997ed67932cf2d2c3de6e8c551068bb095b"
 
-"@savvy-css/typography-garnishes@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@savvy-css/typography-garnishes/-/typography-garnishes-0.0.1.tgz#944e35faa235d9b958f68b814dbf559880234837"
-
-"@savvy-css/typography-variables@^0.1.0":
+"@savvy-css/typography-garnishes@^0.1.0":
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@savvy-css/typography-variables/-/typography-variables-0.1.0.tgz#c766638fefbc1f4e4b026fefd5d0faadd0ec83b6"
+  resolved "https://registry.yarnpkg.com/@savvy-css/typography-garnishes/-/typography-garnishes-0.1.0.tgz#9e5eb1532f45dcbb6c37d46de6d999e7fd607a50"
+
+"@savvy-css/typography-variables@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@savvy-css/typography-variables/-/typography-variables-0.2.0.tgz#2e3fa9927d5c6d9d30d12af08492f5a97dc4a1e2"
 
 "@savvy-css/v-align-utilities@^0.0.1":
   version "0.0.1"
