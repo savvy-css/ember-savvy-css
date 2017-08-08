@@ -41,7 +41,7 @@
     "@savvy-css/display-utilities": "^0.0.1",
     "@savvy-css/flex-utilities": "^0.0.1",
     "@savvy-css/grid-object-patterns": "^0.2.1",
-    "@savvy-css/normalize": "^0.1.0",
+    "@savvy-css/normalize": "^0.2.0",
     "@savvy-css/overflow-utilities": "^0.0.1",
     "@savvy-css/position-utilities": "^0.0.1",
     "@savvy-css/reset-garnishes": "^0.0.1",
