@@ -1,3 +1,8 @@
+# 0.5.0 &mdash; August 08, 2017
+
+- **[BREAKING_CHANGE]** Upgrade to `@savvy-css/normalize` @ `v0.2.0`.
+
+
 # 0.4.1 &mdash; August 03, 2017
 
 - **[PATCH]** Upgrade to `@savvy-css/typography-garnishes` @ `v0.1.1`.
