@@ -22,13 +22,13 @@ ember install @savvy-css/ember-savvy-css
 
 During installation, the addon will run its default blueprint (which can be run manually with `ember g ember-savvy-css`). The blueprint generates a `savvy-css/` directory within your project's `app/styles/` directory. This directory consists of files that organize imports of the modules comprising `savvy-css`:
 
-#### _savvy-css-settings.css
+#### _settings.css
 
 This file contains all of the CSS Custom Properties provided by Savvy. You can override these properties with you own values by importing this file as the first thing in your application.
 
-#### _savvy-css-core.css
+#### _core.css
 
-This file contains Savvy's core -- its helper classes. Some of these will attempt to make use of Savvy variables (otherwise, they'll fallback on default values), so it's recommended to import this file after `_savvy-css-settings.css`.
+This file contains Savvy's core -- its helper classes. Some of these will attempt to make use of Savvy variables (otherwise, they'll fallback on default values), so it's recommended to import this file after `_settings.css`.
 
 
 ### Importing Generated Files
@@ -41,13 +41,13 @@ Here's our recommended setup:
 /* --------- app.css --------- */
 
 /* Import Savvy CSS variables/settings */
-@import "./savvy-css/_savvy-css-settings.css";
+@import "./savvy-css/_settings.css";
 
 /* Import local variables/settings after Savvy settings */
 @import "./_variables.css";
 
 /* Import core Savvy CSS before local core CSS */
-@import "./savvy-css/_savvy-css-core.css";
+@import "./savvy-css/_core.css";
 
 
 /* Organize the rest of your app's CSS from this point onward */
