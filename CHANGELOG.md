@@ -1,3 +1,10 @@
+# 0.7.0 &mdash; August 12, 2017
+
+- **[BREAKING_CHANGE]** Update generated file names.
+  + "savvy-css" is no longer needed in the name since files are now
+  stored in their own "savvy-css" directory.
+
+
 # 0.6.0 &mdash; August 12, 2017
 
 - **[BREAKING_CHANGE]** Update structure of generated files.
