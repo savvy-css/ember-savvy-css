@@ -1,3 +1,9 @@
+# 0.6.0 &mdash; August 12, 2017
+
+- **[BREAKING_CHANGE]** Update structure of generated files.
+  + This change separates "base-settings" from "core" CSS and documents the best way to import both.
+
+
 # 0.5.0 &mdash; August 08, 2017
 
 - **[BREAKING_CHANGE]** Upgrade to `@savvy-css/normalize` @ `v0.2.0`.
