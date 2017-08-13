@@ -1,25 +1,20 @@
-/* ------------- BASE SETTINGS -------------- */
-@import "@savvy-css/box-shadow-variables";
-@import "@savvy-css/breakpoint-variables";
-@import "@savvy-css/core-variables";
-@import "@savvy-css/spacing-variables";
-@import "@savvy-css/typography-variables";
-
 /* ------------- GARNISHES -------------- */
+
 @import "@savvy-css/border-garnishes";
 @import "@savvy-css/box-shadow-garnishes";
 @import "@savvy-css/reset-garnishes";
 @import "@savvy-css/typography-garnishes";
 
-/* ------------- NORMALIZE  -------------- */
-@import "@savvy-css/normalize";
 
 /* ------------- OBJECT PATTERNS -------------- */
+
 @import "@savvy-css/box-object-patterns";
 @import "@savvy-css/grid-object-patterns";
 @import "@savvy-css/tap-target-object-patterns";
 
+
 /* ------------- UTILITIES  -------------- */
+
 @import "@savvy-css/display-utilities";
 @import "@savvy-css/flex-utilities";
 @import "@savvy-css/overflow-utilities";

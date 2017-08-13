@@ -1,0 +1,12 @@
+/* ------------- BASE SETTINGS -------------- */
+
+@import "@savvy-css/box-shadow-variables";
+@import "@savvy-css/breakpoint-variables";
+@import "@savvy-css/core-variables";
+@import "@savvy-css/spacing-variables";
+@import "@savvy-css/typography-variables";
+
+
+/* ------------- NORMALIZE  -------------- */
+
+@import "@savvy-css/normalize";

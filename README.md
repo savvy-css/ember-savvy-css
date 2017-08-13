@@ -16,26 +16,47 @@ _An Ember addon for including Savvy CSS in an Ember project_.
 ember install @savvy-css/ember-savvy-css
 ```
 
-## Compatibility
-
 ## Usage
 
-During installation, the addon will generate a `_ember-savvy-css.css` file in your project's `app/styles/` directory. By default, this file imports all of the modules of `savvy-css`. However, you can modify these imports as you see fit.
+### Generating Files
 
-From there, all you need to do is import the generated file in your `app.css` file to make it a part of the styles that are processed by your app:
+During installation, the addon will run its default blueprint (which can be run manually with `ember g ember-savvy-css`). The blueprint generates a `savvy-css/` directory within your project's `app/styles/` directory. This directory consists of files that organize imports of the modules comprising `savvy-css`:
+
+#### _savvy-css-settings.css
+
+This file contains all of the CSS Custom Properties provided by Savvy. You can override these properties with you own values by importing this file as the first thing in your application.
+
+#### _savvy-css-core.css
+
+This file contains Savvy's core -- its helper classes. Some of these will attempt to make use of Savvy variables (otherwise, they'll fallback on default values), so it's recommended to import this file after `_savvy-css-settings.css`.
+
+
+### Importing Generated Files
+
+After the default blueprint runs, all you need to do is import the generated files in your `app.css` file to make it a part of the styles that are processed by your app.
+
+Here's our recommended setup:
 
 ```css
-/* app.css */
+/* --------- app.css --------- */
 
-@import "./_ember-savvy-css.css";
+/* Import Savvy CSS variables/settings */
+@import "./savvy-css/_savvy-css-settings.css";
 
-...
+/* Import local variables/settings after Savvy settings */
+@import "./_variables.css";
+
+/* Import core Savvy CSS before local core CSS */
+@import "./savvy-css/_savvy-css-core.css";
+
+
+/* Organize the rest of your app's CSS from this point onward */
 
 ```
 
 Currently, this setup assumes that your styles are being processed wth `ember-cli-postcss`, but more flexible options are being explored.
 
-### PostCSS
+### Configuring your Build with PostCSS
 
 PostCSS requires at least one plugin be defined. We're going to need a way to resolve paths of CSS `@import` rules anyway, so let's use [`postcss-import`](https://www.npmjs.com/package/postcss-import) as our first plugin. Here's what the PostCSS options should look like in `ember-cli-build.js`:
 
@@ -48,9 +69,6 @@ const cssImport = require('postcss-import');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
-    'ember-cli-babel': {
-      includePolyfill: true,
-    },
     postcssOptions: {
       compile: {
         enabled: true,
