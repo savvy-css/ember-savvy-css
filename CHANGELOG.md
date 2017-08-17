@@ -1,3 +1,8 @@
+# 0.7.1 &mdash; August 17, 2017
+
+- **[ENHANCEMENT]** Upgrade to `@savvy-css/grid-object-patterns` @ `^0.2.2`.
+
+
 # 0.7.0 &mdash; August 12, 2017
 
 - **[BREAKING_CHANGE]** Update generated file names.
