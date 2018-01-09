@@ -1,5 +1,7 @@
 # ember-savvy-css
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/savvy-css/ember-savvy-css.svg)](https://greenkeeper.io/)
+
 _An Ember addon for including Savvy CSS in an Ember project_.
 
 [![Latest NPM release][npm-badge]][npm-badge-url]
