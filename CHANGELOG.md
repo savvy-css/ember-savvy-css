@@ -1,3 +1,8 @@
+# 0.7.2 &mdash; January 09, 2018
+
+- **[ENHANCEMENT]** Upgrade project for `ember-cli` @ `2.18.0`.
+
+
 # 0.7.1 &mdash; August 17, 2017
 
 - **[ENHANCEMENT]** Upgrade to `@savvy-css/grid-object-patterns` @ `^0.2.2`.
